@@ -1,19 +1,18 @@
 <template>
   <div id="app">
-<my-component />
+    <my-component />
   </div>
 </template>
 
 <script>
 // import MyComponent from './components/MyComponent'
-import MyComponent from './components/MyComponent.vue'
+import MyComponent from "./components/MyComponent.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    MyComponent
-    
-  }
-}
+    MyComponent,
+  },
+};
 </script>
 export default {
     name:'MyComponent',
